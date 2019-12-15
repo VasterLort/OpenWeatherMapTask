@@ -3,24 +3,22 @@ package by.jnetworks.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Document(collection = "openweathermap")
 public class CurrentWeather {
-    private Coord coord;
-    private List<Weather> weatherList;
-    private String base;
-    private Main main;
-    private Long visibility;
-    private Wind wind;
-    private Clouds clouds;
-    private Long dt;
-    private Sys sys;
-    private Long timezone;
-    private Long id;
-    private String name;
-    private Long cod;
+    @Id
+    private ObjectId idObj;
+    @Field(value = "response_date")
+    private String currentDate;
+    @Field(value = "response_status")
+    private Long status;
+    @Field(value = "response_body")
+    private CurrentWeatherDto currentWeatherDto;
 }

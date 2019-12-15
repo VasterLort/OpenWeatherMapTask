@@ -1,10 +1,13 @@
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Main.java
-D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Coord.java
-D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\service\JsonReaderService.java
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Weather.java
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\CurrentWeather.java
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\Application.java
-D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\component\Scheduler.java
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Sys.java
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Wind.java
 D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Clouds.java
+D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\CurrentWeatherDto.java
+D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\pojo\Coord.java
+D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\util\ConstantStorage.java
+D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\service\JsonReaderService.java
+D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\component\Scheduler.java
+D:\Java\OpenWeatherMap\src\main\java\by\jnetworks\repository\CurrentWeatherRepository.java

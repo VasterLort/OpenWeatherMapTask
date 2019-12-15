@@ -1,10 +1,13 @@
-by\jnetworks\pojo\Clouds.class
-by\jnetworks\pojo\Weather.class
+by\jnetworks\repository\CurrentWeatherRepository.class
 by\jnetworks\pojo\Coord.class
 by\jnetworks\pojo\Wind.class
-by\jnetworks\Application.class
-by\jnetworks\pojo\Main.class
 by\jnetworks\pojo\Sys.class
 by\jnetworks\component\Scheduler.class
 by\jnetworks\pojo\CurrentWeather.class
+by\jnetworks\pojo\Clouds.class
+by\jnetworks\pojo\Weather.class
+by\jnetworks\pojo\CurrentWeatherDto.class
+by\jnetworks\Application.class
+by\jnetworks\pojo\Main.class
+by\jnetworks\util\ConstantStorage.class
 by\jnetworks\service\JsonReaderService.class

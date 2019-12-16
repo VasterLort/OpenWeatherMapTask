@@ -1,7 +1,7 @@
 # OpenWeatherMapTask
 
 ## About
-This is a project for getting data about current weather from OpenWeatherMap and writing this data in MongoDB. 
+This is a project for getting data about current weather from OpenWeatherMap and writing this data in MongoDB every ten seconds. 
 OpenWeatherMap is an online service that provides weather data, including current weather data, forecasts, and historical data to the developers of web services and mobile applications.
 
 ## Configuration
